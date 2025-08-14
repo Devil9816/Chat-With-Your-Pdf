@@ -20,6 +20,9 @@ st.title("📚 Ask Questions from Your PDF")
 # Load LLM and embeddings once
 @st.cache_resource
 def load_llm_and_embeddings():
+
+
+
     llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-001", temperature=0.3, streaming=True)
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
     return llm, embeddings
