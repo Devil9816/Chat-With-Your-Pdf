@@ -38,3 +38,25 @@ Chat-With-Your-Pdf/
 ├── README.md                   # Project documentation
 ├── chat_history.json           # Stores conversational memory
 └── requirements.txt            # Python dependencies
+
+```
+
+# 🚀 Tech Stack
+- Python 3.10+
+- TensorFlow / Keras
+- PyTorch (for experimentation)
+- scikit-learn
+- NumPy, Pandas
+- Matplotlib, Seaborn
+- Jupyter Notebook
+- OpenCV (optional for preprocessing/augmentation)
+
+# 🔮 Future Scope
+- Implement hyperparameter tuning with Optuna / Ray Tune
+- Add transfer learning models (ResNet, EfficientNet, Vision Transformers)
+- Deploy trained models using Streamlit or Flask
+- Experiment with ONNX for cross-platform deployment
+- Build CI/CD pipeline for automated model training and testing
+- Extend dataset support beyond CIFAR-10 and MNIST (e.g., ImageNet subset)
+- Add Explainable AI (Grad-CAM, SHAP) for model interpretability
+
